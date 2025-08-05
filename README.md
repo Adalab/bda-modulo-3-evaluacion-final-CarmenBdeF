@@ -7,16 +7,26 @@ Este repositorio contiene el ejercicio de evaluación final del Módulo 3 del Bo
 ## 📁 Estructura del Proyecto
 
 
-- `file/`: Contiene los datasets proporcionados.
-- `1_EDA.ipynb`: Exploración inicial de los datos.
-- `2_Limpieza.ipynb`: Tratamiento y limpieza de los datos.
-- `3_Visualizacion.ipynb`: Visualización y análisis gráfico de los datos.
+- `Files/`: Carpeta que contiene los archivos CSV originales.
+- `eval-mod-03-parte-1-EDA_.ipynb`: Exploración inicial de los datos.
+- `eval-mod-03-parte-2-limpieza.ipynb`: Limpieza y preparación de los datos.
+- `eval-mod-03-parte-3-visualizacion.ipynb`: Visualización y análisis gráfico.
+
+```plaintext
+├── Files/
+│   ├── customer_flight_activity.csv
+│   └── customer_loyalty_history.csv
+├── eval-mod-03-parte-1-EDA_.ipynb
+├── eval-mod-03-parte-2-limpieza.ipynb
+└── eval-mod-03-parte-3-visualizacion.ipynb
+```
+
 
 ---
 
 ## 📦 Datasets
 
-### ✈️ Customer_Flight_Analysis.csv
+### ✈️ customer_flight_activity.csv
 
 Contiene información mensual sobre la actividad de vuelo de los clientes. Columnas principales:
 
@@ -27,7 +37,7 @@ Contiene información mensual sobre la actividad de vuelo de los clientes. Colum
 - `Points Accumulated`, `Points Redeemed`: Puntos ganados y usados.
 - `Dollar Cost Points Redeemed`: Valor en dólares de los puntos redimidos.
 
-### 👤 Customer_Loyalty_History.csv
+### 👤 customer_loyalty_history.csv
 
 Contiene información demográfica y del programa de lealtad de los clientes:
 
@@ -41,17 +51,17 @@ Contiene información demográfica y del programa de lealtad de los clientes:
 
 ## ✅ Fases del Proyecto
 
-### 🧪 1. Exploración y Análisis Preliminar (`1_EDA.ipynb`)
+### 🧪 1. Exploración y Análisis Preliminar (`eval-mod-03-parte-1-EDA_.ipynb`)
 
 - Análisis de estructura, tipos de datos y valores nulos.
 - Unión de ambos datasets por `Loyalty Number`.
 
-### 🧹 2. Limpieza de Datos (`2_Limpieza.ipynb`)
+### 🧹 2. Limpieza de Datos (`eval-mod-03-parte-2-limpieza.ipynb`)
 
 - Tratamiento de nulos y tipos de datos.
 - Homogeneización y preparación para análisis gráfico.
 
-### 📈 3. Visualización de Datos (`3_Visualizacion.ipynb`)
+### 📈 3. Visualización de Datos (`eval-mod-03-parte-3-visualizacion.ipynb`)
 
 Se abordan las siguientes preguntas mediante visualizaciones:
 
@@ -83,4 +93,4 @@ Se abordan las siguientes preguntas mediante visualizaciones:
 
 ## 🚀 Autoría
 
-Este proyecto fue desarrollado como parte del Bootcamp de Análisis de Datos de **Adalab**, dentro del **Módulo 3: Limpieza, análisis y visualización de datos**.
+Proyecto realizado por Carmen Bermejo de Fuentes para el Bootcamp de Análisis de Datos de **Adalab** – 2025, dentro del **Módulo 3: Limpieza, análisis y visualización de datos**.
